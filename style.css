@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('images/bg.jpeg');
+    background-size: cover; 
+} 
+
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
+.right{
+    position: absolute;
+    right: 0;
+    margin: 5px 0;
+    height: 90%;
+}
+
+.startmenu{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -650px;
+    left: 400px;
+    transition: all 0.3s ease-in;
+}
+
+.startmenu img{
+    width: 500px;
+    height: 500px;
+    border-radius: 8px;
+}
+
+.icons{
+    color: white;
+}
+
+.icons img{
+    position: absolute;
+    width: 55px;
+    margin: 12px;
+}
+
+.name{
+    padding-top: 45px;
+    padding-left: 12px;
+}
+
+.edge img{
+    width:38px;
+    padding-top: 18px;
+    padding-left: 18px;
+}
+
+.name1{
+    color: white;
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.bin img{
+    position: absolute;
+    width: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.name2{
+    color: white;
+    padding-top: 60px;
+    padding-left: 10px;
+}
+.rbin{
+    color: white;
+    padding-left: 24px;
+    padding-top: 2px;
+}
